@@ -34,6 +34,8 @@ public:
     void AppendElem(const T &elem) {
         if (elem > _maxT) _maxT = elem;
         if (elem < _minT) _minT = elem;
+        // _minT = (elem < _minT) ? elem : _minT;
+        // _maxT = (elem > _maxT) ? elem : _maxT;
         // if (_count == _size) {
         //     Resize(_size * 2);
         // }
