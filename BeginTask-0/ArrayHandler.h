@@ -30,15 +30,15 @@ public:
     };
 
     void AppendElem(const T &elem) {
-        if (_count == _size) {
-            Resize(_size * 128);
-        }
         if (_count == 0){
             _maxT = elem;
             _minT = elem;
         }else{
             if (_maxT < elem) _maxT = elem;
             if (_minT > elem) _minT = elem;
+        }
+        if (_count == _size) {
+            Resize(_size * 128);
         }
         _array[_count++] = elem;
     };
