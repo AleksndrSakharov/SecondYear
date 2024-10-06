@@ -1,7 +1,5 @@
 #pragma once
 #include <cstdlib>
-#include <stdexcept>
-#include <algorithm> 
 #include <limits>
 
 template<typename T>
@@ -32,10 +30,8 @@ public:
     }
 
     void AppendElem(const T &elem) {
-        if (elem > _maxT) _maxT = elem;
-        if (elem < _minT) _minT = elem;
-        // _minT = (elem < _minT) ? elem : _minT;
-        // _maxT = (elem > _maxT) ? elem : _maxT;
+        _minT = (elem < _minT) ? elem : _minT;
+        _maxT = (elem > _maxT) ? elem : _maxT;
         // if (_count == _size) {
         //     Resize(_size * 2);
         // }
@@ -52,12 +48,10 @@ public:
     
 
     T GetMax() const {
-        if (_count == 0) throw std::runtime_error("Array is empty");
         return _maxT;
     }
 
     T GetMin() const {
-        if (_count == 0) throw std::runtime_error("Array is empty");
         return _minT;
     }
 
