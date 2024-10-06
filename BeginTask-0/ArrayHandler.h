@@ -1,7 +1,8 @@
 #pragma once
 #include <cstdlib>
 #include <stdexcept>
-#include <algorithm>
+#include <algorithm> 
+// #include <immintrin.h>
 
 template<typename T>
 class ArrayHandler {
@@ -11,7 +12,6 @@ private:
     size_t _count;
     T _maxT;
     T _minT;
-    bool _isSorted;
 
     void Resize(size_t new_size) {
         T *new_array = new T[new_size];
@@ -31,19 +31,12 @@ private:
         }
     }
 
-    void SortArrayIfNeeded() {
-        if (!_isSorted) {
-            std::sort(_array, _array + _count);
-            _isSorted = true;
-        }
-    }
-
 public:
-    ArrayHandler() : _size(1000000), _count(0), _isSorted(false) {
+    ArrayHandler() : _size(1000002), _count(0) {
         _array = new T[_size];
     }
 
-    ArrayHandler(size_t size) : _size(size), _count(0), _isSorted(false) {
+    ArrayHandler(size_t size) : _size(size), _count(0) {
         _array = new T[_size];
     }
 
@@ -53,13 +46,39 @@ public:
             Resize(_size * 2);
         }
         _array[_count++] = elem;
-        _isSorted = false;
     }
 
-    bool IsContains(const T &elem) {
-        SortArrayIfNeeded();
-        return std::binary_search(_array, _array + _count, elem);
-    }
+    // bool IsContains(const T &elem) const {
+    //     for (size_t i = 0; i < _count; ++i) {
+    //         if (_array[i] == elem) return true;
+    //     }
+    //     return false;
+    // }
+
+    
+
+    // bool IsContains(const T* __restrict array, size_t count, const T elem) {
+    //     const T* end = array + count;
+    //     const __m256i search_value = _mm256_set1_epi32(elem);  // Устанавливаем элемент для поиска
+
+    //     while (array + 8 <= end) {  // Каждая операция AVX работает с 8 32-битными элементами
+    //         __m256i data = _mm256_loadu_si256((__m256i*)array);
+    //         __m256i cmp = _mm256_cmpeq_epi32(data, search_value);
+    //         if (_mm256_movemask_epi8(cmp) != 0) {  // Проверяем, есть ли совпадения
+    //             return true;
+    //         }
+    //         array += 8;
+    //     }
+
+    //     // Оставшиеся элементы
+    //     while (array < end) {
+    //         if (*array == elem) return true;
+    //         ++array;
+    //     }
+
+    //     return false;
+    // }
+
 
     T GetMax() const {
         if (_count == 0) throw std::runtime_error("Array is empty");
