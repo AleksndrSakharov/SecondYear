@@ -26,9 +26,9 @@ public:
         _array = new T[_size];
     }
 
-    // ArrayHandler(size_t size) : _size(size), _count(0), _minT(std::numeric_limits<T>::max()), _maxT(std::numeric_limits<T>::min()) {
-    //     _array = new T[_size];
-    // } 
+    ArrayHandler(size_t size) : _size(size), _count(0), _minT(std::numeric_limits<T>::max()), _maxT(std::numeric_limits<T>::min()) {
+        _array = new T[_size];
+    } 
 
     void AppendElem(T elem) {
         _array[_count++] = elem;
@@ -39,12 +39,12 @@ public:
         // }
     }
 
-    // bool IsContains(const T &elem) const {
-    //     for (size_t i = 0; i < _count; ++i) {
-    //         if (_array[i] == elem) return true;
-    //     }
-    //     return false;
-    // }
+    bool IsContains(const T &elem) const {
+        for (size_t i = 0; i < _count; ++i) {
+            if (_array[i] == elem) return true;
+        }
+        return false;
+    }
       
     
 
