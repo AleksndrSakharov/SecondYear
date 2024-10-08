@@ -35,7 +35,7 @@ public:
         _minT = (elem < _minT) ? elem : _minT;
         _maxT = (elem > _maxT) ? elem : _maxT;
         // if (_count == _size) {
-        //     Resize(_size * 2);
+        //     Resize(_size * 2); 
         // }
     }
 
