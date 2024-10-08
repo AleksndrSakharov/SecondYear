@@ -35,7 +35,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 26,
+				"line" : 36,
 				"parent" : 0
 			},
 			{
@@ -77,6 +77,42 @@
 				{
 					"backtrace" : 3,
 					"fragment" : "-flto"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ffast-math"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fno-rtti"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fomit-frame-pointer"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-floop-block"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-floop-parallelize-all"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ftree-loop-distribution"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fpeel-loops"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fvect-cost-model=dynamic"
 				}
 			],
 			"includes" : 

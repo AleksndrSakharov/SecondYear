@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = @CMakeFiles/main.dir/includes_CXX.rsp
 
-CXX_FLAGS = -g -ftree-vectorize -O3 -march=native -funroll-loops -fprefetch-loop-arrays -flto
+CXX_FLAGS = -g -ftree-vectorize -O3 -march=native -funroll-loops -fprefetch-loop-arrays -flto -ffast-math -fno-exceptions -fno-rtti -fomit-frame-pointer -floop-block -floop-parallelize-all -ftree-loop-distribution -fpeel-loops -fvect-cost-model=dynamic
 
