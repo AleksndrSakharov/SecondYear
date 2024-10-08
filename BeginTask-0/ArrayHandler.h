@@ -60,3 +60,4 @@ public:
         delete[] _array;
     }
 };
+

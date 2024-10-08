@@ -72,6 +72,7 @@ CMakeFiles/main.dir/main.cpp.obj: D:/PROGA/Proga/C++/SecondYear/BeginTask-0/main
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/std_abs.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/std_function.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/std_mutex.h \
+  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/std_thread.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_algo.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_algobase.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_bvector.h \
@@ -97,6 +98,7 @@ CMakeFiles/main.dir/main.cpp.obj: D:/PROGA/Proga/C++/SecondYear/BeginTask-0/main
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/streambuf_iterator.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/string_view.tcc \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stringfwd.h \
+  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/this_thread_sleep.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/uniform_int_dist.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/unique_lock.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/unique_ptr.h \
@@ -162,6 +164,7 @@ CMakeFiles/main.dir/main.cpp.obj: D:/PROGA/Proga/C++/SecondYear/BeginTask-0/main
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/string \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/string_view \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/system_error \
+  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/thread \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/tr1/bessel_function.tcc \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/tr1/beta_function.tcc \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/tr1/ell_integral.tcc \
@@ -358,6 +361,7 @@ CMakeFiles/main.dir/tests.cpp.obj: D:/PROGA/Proga/C++/SecondYear/BeginTask-0/tes
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/std_abs.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/std_function.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/std_mutex.h \
+  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/std_thread.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_algo.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_algobase.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_bvector.h \
@@ -383,6 +387,7 @@ CMakeFiles/main.dir/tests.cpp.obj: D:/PROGA/Proga/C++/SecondYear/BeginTask-0/tes
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/streambuf_iterator.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/string_view.tcc \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stringfwd.h \
+  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/this_thread_sleep.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/uniform_int_dist.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/unique_lock.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/unique_ptr.h \
@@ -450,6 +455,7 @@ CMakeFiles/main.dir/tests.cpp.obj: D:/PROGA/Proga/C++/SecondYear/BeginTask-0/tes
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/string \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/string_view \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/system_error \
+  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/thread \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/tr1/bessel_function.tcc \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/tr1/beta_function.tcc \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/tr1/ell_integral.tcc \
@@ -578,6 +584,8 @@ CMakeFiles/main.dir/tests.cpp.obj: D:/PROGA/Proga/C++/SecondYear/BeginTask-0/tes
 
 
 _deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h:
+
+C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/thread:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/locale_conv.h:
 
@@ -765,6 +773,12 @@ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/std_function.h:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/std_mutex.h:
 
+C:/w64devkit/x86_64-w64-mingw32/include/limits.h:
+
+C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_function.h:
+
+C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/std_thread.h:
+
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/ratio:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_algobase.h:
@@ -772,10 +786,6 @@ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_algobase.h:
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_bvector.h:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_construct.h:
-
-C:/w64devkit/x86_64-w64-mingw32/include/limits.h:
-
-C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_function.h:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/memory:
 
@@ -830,6 +840,12 @@ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/streambuf_iterat
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/string_view.tcc:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stringfwd.h:
+
+C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h:
+
+_deps/googletest-src/googlemock/include/gmock/gmock-matchers.h:
+
+C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/this_thread_sleep.h:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/stdexcept:
 
@@ -1096,10 +1112,6 @@ C:/w64devkit/x86_64-w64-mingw32/include/wchar.h:
 D:/PROGA/Proga/C++/SecondYear/BeginTask-0/ArrayHandler.h:
 
 _deps/googletest-src/googlemock/include/gmock/gmock-cardinalities.h:
-
-C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h:
-
-_deps/googletest-src/googlemock/include/gmock/gmock-matchers.h:
 
 _deps/googletest-src/googlemock/include/gmock/gmock-more-actions.h:
 
