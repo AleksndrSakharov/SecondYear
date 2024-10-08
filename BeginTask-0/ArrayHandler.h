@@ -12,13 +12,13 @@ private:
     T _maxT;
     T _minT;
 
-    // void Resize(size_t new_size) {
-    //     T *new_array = new T[new_size];
-    //     std::move(_array, _array + _count, new_array);
-    //     delete[] _array;
-    //     _array = new_array;
-    //     _size = new_size;
-    // }
+    void Resize(size_t new_size) {
+        T *new_array = new T[new_size];
+        std::move(_array, _array + _count, new_array);
+        delete[] _array;
+        _array = new_array;
+        _size = new_size;
+    }
 
 
 public:
@@ -26,25 +26,25 @@ public:
         _array = new T[_size];
     }
 
-    // ArrayHandler(size_t size) : _size(size), _count(0), _minT(std::numeric_limits<T>::max()), _maxT(std::numeric_limits<T>::min()) {
-    //     _array = new T[_size];
-    // }
+    ArrayHandler(size_t size) : _size(size), _count(0), _minT(std::numeric_limits<T>::max()), _maxT(std::numeric_limits<T>::min()) {
+        _array = new T[_size];
+    }
 
     void AppendElem(T elem) {
         _array[_count++] = elem;
         _minT = (elem < _minT) ? elem : _minT;
         _maxT = (elem > _maxT) ? elem : _maxT;
-        // if (_count == _size) {
-        //     Resize(_size * 2);
-        // }
+        if (_count == _size) {
+            Resize(_size * 2);
+        }
     }
 
-    // bool IsContains(const T &elem) const {
-    //     // for (size_t i = 0; i < _count; ++i) {
-    //     //     if (_array[i] == elem) return true;
-    //     // }
-    //     // return false;
-    // }
+    bool IsContains(const T &elem) const {
+        for (size_t i = 0; i < _count; ++i) {
+            if (_array[i] == elem) return true;
+        }
+        return false;
+    }
       
     
 
