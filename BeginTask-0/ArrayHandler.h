@@ -36,7 +36,7 @@ public:
         _maxT = (elem > _maxT) ? elem : _maxT;
         // if (_count == _size) {
         //     Resize(_size * 2); 
-        // } 
+        // }  
     }
 
     bool IsContains(const T &elem) const {
