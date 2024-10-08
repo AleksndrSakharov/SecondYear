@@ -26,9 +26,9 @@ public:
         _array = new T[_size];
     }
 
-    ArrayHandler(size_t size) : _size(size), _count(0), _minT(std::numeric_limits<T>::max()), _maxT(std::numeric_limits<T>::min()) {
-        _array = new T[_size];
-    }
+    // ArrayHandler(size_t size) : _size(size), _count(0), _minT(std::numeric_limits<T>::max()), _maxT(std::numeric_limits<T>::min()) {
+    //     _array = new T[_size];
+    // }
 
     void AppendElem(T elem) {
         _array[_count++] = elem;
