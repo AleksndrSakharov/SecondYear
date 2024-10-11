@@ -13,7 +13,6 @@ private:
   
 public:  
     ArrayHandler() :  _count(0), _minT(std::numeric_limits<T>::max()), _maxT(std::numeric_limits<T>::min()) {
-        _array = new T[_size];
     }
 
     // ArrayHandler(size_t size) : _count(0), _minT(std::numeric_limits<T>::max()), _maxT(std::numeric_limits<T>::min()) {
