@@ -6,20 +6,19 @@
 template<typename T>
 class ArrayHandler {
 private:
-    T *_array;
-    size_t _size; 
+    T _array[1000000]; 
     size_t _count; 
     T _maxT;
     T _minT;
   
 public:  
-    ArrayHandler() : _size(1000000), _count(0), _minT(std::numeric_limits<T>::max()), _maxT(std::numeric_limits<T>::min()) {
+    ArrayHandler() :  _count(0), _minT(std::numeric_limits<T>::max()), _maxT(std::numeric_limits<T>::min()) {
         _array = new T[_size];
     }
 
-    ArrayHandler(size_t size) : _size(size), _count(0), _minT(std::numeric_limits<T>::max()), _maxT(std::numeric_limits<T>::min()) {
-        _array = new T[_size];
-    } 
+    // ArrayHandler(size_t size) : _count(0), _minT(std::numeric_limits<T>::max()), _maxT(std::numeric_limits<T>::min()) {
+    //     _array = new T[_size];
+    // } 
 
     void AppendElem(T elem) {
         _array[_count++] = elem;
