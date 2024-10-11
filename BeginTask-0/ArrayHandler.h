@@ -35,7 +35,7 @@ public:
         return false;
     }
       
-    
+     
 
     T GetMax() const {
         return _maxT;
