@@ -1,32 +1,38 @@
 [
 {
-  "directory": "/home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build",
-  "command": "/usr/bin/g++-12  -isystem /home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-src/googletest/include -isystem /home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-src/googletest -isystem /home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-src/googlemock/include -isystem /home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-src/googlemock -g -ftree-vectorize -Ofast -march=native -funroll-loops -fprefetch-loop-arrays -flto -ffast-math -fno-exceptions -fno-rtti -fomit-frame-pointer -floop-block -floop-parallelize-all -ftree-loop-distribution -fpeel-loops -fvect-cost-model=dynamic -fno-stack-protector -DNDEBUG -mavx2 -fprofile-generate -fprofile-use -o CMakeFiles/main.dir/main.cpp.o -c /home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/BeginTask-0/main.cpp",
-  "file": "/home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/BeginTask-0/main.cpp"
+  "directory": "D:/PROGA/Proga/C++/SecondYear/build",
+  "command": "C:/w64devkit/bin/g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -ftree-vectorize -Ofast -march=native -funroll-loops -fprefetch-loop-arrays -flto -ffast-math -fno-exceptions -fno-rtti -fomit-frame-pointer -floop-block -floop-parallelize-all -ftree-loop-distribution -fpeel-loops -fvect-cost-model=dynamic -fno-stack-protector -DNDEBUG -mavx2 -fprofile-generate -fprofile-use -o CMakeFiles/main.dir/main.cpp.obj -c D:/PROGA/Proga/C++/SecondYear/BeginTask-0/main.cpp",
+  "file": "D:/PROGA/Proga/C++/SecondYear/BeginTask-0/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.obj"
 },
 {
-  "directory": "/home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build",
-  "command": "/usr/bin/g++-12  -isystem /home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-src/googletest/include -isystem /home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-src/googletest -isystem /home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-src/googlemock/include -isystem /home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-src/googlemock -g -ftree-vectorize -Ofast -march=native -funroll-loops -fprefetch-loop-arrays -flto -ffast-math -fno-exceptions -fno-rtti -fomit-frame-pointer -floop-block -floop-parallelize-all -ftree-loop-distribution -fpeel-loops -fvect-cost-model=dynamic -fno-stack-protector -DNDEBUG -mavx2 -fprofile-generate -fprofile-use -o CMakeFiles/main.dir/tests.cpp.o -c /home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/BeginTask-0/tests.cpp",
-  "file": "/home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/BeginTask-0/tests.cpp"
+  "directory": "D:/PROGA/Proga/C++/SecondYear/build",
+  "command": "C:/w64devkit/bin/g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -ftree-vectorize -Ofast -march=native -funroll-loops -fprefetch-loop-arrays -flto -ffast-math -fno-exceptions -fno-rtti -fomit-frame-pointer -floop-block -floop-parallelize-all -ftree-loop-distribution -fpeel-loops -fvect-cost-model=dynamic -fno-stack-protector -DNDEBUG -mavx2 -fprofile-generate -fprofile-use -o CMakeFiles/main.dir/tests.cpp.obj -c D:/PROGA/Proga/C++/SecondYear/BeginTask-0/tests.cpp",
+  "file": "D:/PROGA/Proga/C++/SecondYear/BeginTask-0/tests.cpp",
+  "output": "CMakeFiles/main.dir/tests.cpp.obj"
 },
 {
-  "directory": "/home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-build/googlemock",
-  "command": "/usr/bin/g++-12  -I/home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-src/googlemock/include -I/home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-src/googlemock -isystem /home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-src/googletest/include -isystem /home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-src/googletest -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
-  "file": "/home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-src/googlemock/src/gmock-all.cc"
+  "directory": "D:/PROGA/Proga/C++/SecondYear/build/_deps/googletest-build/googlemock",
+  "command": "C:/w64devkit/bin/g++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.obj -c D:/PROGA/Proga/C++/SecondYear/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "D:/PROGA/Proga/C++/SecondYear/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
 },
 {
-  "directory": "/home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-build/googlemock",
-  "command": "/usr/bin/g++-12  -isystem /home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-src/googlemock/include -isystem /home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-src/googlemock -isystem /home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-src/googletest/include -isystem /home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-src/googletest -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
-  "file": "/home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-src/googlemock/src/gmock_main.cc"
+  "directory": "D:/PROGA/Proga/C++/SecondYear/build/_deps/googletest-build/googlemock",
+  "command": "C:/w64devkit/bin/g++.exe  @CMakeFiles/gmock_main.dir/includes_CXX.rsp -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj -c D:/PROGA/Proga/C++/SecondYear/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "D:/PROGA/Proga/C++/SecondYear/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
 },
 {
-  "directory": "/home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-build/googletest",
-  "command": "/usr/bin/g++-12  -I/home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-src/googletest/include -I/home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-src/googletest -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-src/googletest/src/gtest-all.cc",
-  "file": "/home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-src/googletest/src/gtest-all.cc"
+  "directory": "D:/PROGA/Proga/C++/SecondYear/build/_deps/googletest-build/googletest",
+  "command": "C:/w64devkit/bin/g++.exe  @CMakeFiles/gtest.dir/includes_CXX.rsp -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.obj -c D:/PROGA/Proga/C++/SecondYear/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "D:/PROGA/Proga/C++/SecondYear/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
 },
 {
-  "directory": "/home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-build/googletest",
-  "command": "/usr/bin/g++-12  -isystem /home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-src/googletest/include -isystem /home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-src/googletest -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-src/googletest/src/gtest_main.cc",
-  "file": "/home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-src/googletest/src/gtest_main.cc"
+  "directory": "D:/PROGA/Proga/C++/SecondYear/build/_deps/googletest-build/googletest",
+  "command": "C:/w64devkit/bin/g++.exe  @CMakeFiles/gtest_main.dir/includes_CXX.rsp -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj -c D:/PROGA/Proga/C++/SecondYear/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "D:/PROGA/Proga/C++/SecondYear/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
 }
 ]

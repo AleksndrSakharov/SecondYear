@@ -7,7 +7,7 @@ template<typename T>
 class ArrayHandler {
 private:
     T *_array;
-    size_t _size;
+    size_t _size; 
     size_t _count; 
     T _maxT;
     T _minT;
@@ -28,9 +28,15 @@ public:
     
     }
 
-    bool IsContains(const T &elem) const {
-        for (size_t i = 0; i < _count; ++i) {
-            if (_array[i] == elem) return true;
+    bool IsContains(const T* elem) const {
+        const T* end = _array + _count;
+        const T* ptr = _array;
+
+        while (ptr < end) {
+            if (*ptr == *elem) {
+                return true;
+            }
+            ++ptr;
         }
         return false;
     }
