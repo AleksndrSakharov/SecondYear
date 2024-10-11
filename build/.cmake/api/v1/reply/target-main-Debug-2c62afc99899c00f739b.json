@@ -56,10 +56,6 @@
 				},
 				{
 					"backtrace" : 3,
-					"fragment" : "-ftree-vectorize"
-				},
-				{
-					"backtrace" : 3,
 					"fragment" : "-Ofast"
 				},
 				{
@@ -72,15 +68,11 @@
 				},
 				{
 					"backtrace" : 3,
-					"fragment" : "-fprefetch-loop-arrays"
+					"fragment" : "-fomit-frame-pointer"
 				},
 				{
 					"backtrace" : 3,
-					"fragment" : "-flto"
-				},
-				{
-					"backtrace" : 3,
-					"fragment" : "-ffast-math"
+					"fragment" : "-fno-stack-protector"
 				},
 				{
 					"backtrace" : 3,
@@ -92,35 +84,11 @@
 				},
 				{
 					"backtrace" : 3,
-					"fragment" : "-fomit-frame-pointer"
-				},
-				{
-					"backtrace" : 3,
-					"fragment" : "-floop-block"
-				},
-				{
-					"backtrace" : 3,
-					"fragment" : "-floop-parallelize-all"
-				},
-				{
-					"backtrace" : 3,
-					"fragment" : "-ftree-loop-distribution"
-				},
-				{
-					"backtrace" : 3,
-					"fragment" : "-fpeel-loops"
-				},
-				{
-					"backtrace" : 3,
-					"fragment" : "-fvect-cost-model=dynamic"
-				},
-				{
-					"backtrace" : 3,
-					"fragment" : "-fno-stack-protector"
-				},
-				{
-					"backtrace" : 3,
 					"fragment" : "-DNDEBUG"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ffast-math"
 				},
 				{
 					"backtrace" : 3,
