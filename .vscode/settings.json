@@ -1,3 +1,7 @@
 {
-    "cmake.sourceDirectory": "/home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/BeginTask-0"
+    "cmake.sourceDirectory": "/home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/BeginTask-0",
+    "files.associations": {
+        "cstring": "cpp",
+        "cstdlib": "cpp"
+    }
 }
