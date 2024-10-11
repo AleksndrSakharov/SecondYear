@@ -32,7 +32,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 43,
+				"line" : 57,
 				"parent" : 0
 			},
 			{
@@ -57,7 +57,7 @@
 				},
 				{
 					"backtrace" : 3,
-					"fragment" : "-Ofast"
+					"fragment" : "-O3"
 				},
 				{
 					"backtrace" : 3,
@@ -110,26 +110,6 @@
 				{
 					"backtrace" : 3,
 					"fragment" : "-fvect-cost-model=dynamic"
-				},
-				{
-					"backtrace" : 3,
-					"fragment" : "-fno-stack-protector"
-				},
-				{
-					"backtrace" : 3,
-					"fragment" : "-DNDEBUG"
-				},
-				{
-					"backtrace" : 3,
-					"fragment" : "-mavx2"
-				},
-				{
-					"backtrace" : 3,
-					"fragment" : "-fprofile-generate"
-				},
-				{
-					"backtrace" : 3,
-					"fragment" : "-fprofile-use"
 				}
 			],
 			"includes" : 

@@ -86,6 +86,7 @@ CMakeFiles/main.dir/main.cpp.o: /home/s23380346@unn.global/Sakharov/3823B1FI3/Se
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/12/bits/shared_ptr_base.h \
   /usr/include/c++/12/typeinfo \
   /usr/include/c++/12/bits/allocated_ptr.h \
@@ -167,8 +168,11 @@ CMakeFiles/main.dir/main.cpp.o: /home/s23380346@unn.global/Sakharov/3823B1FI3/Se
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/12/bits/std_abs.h \
   /usr/include/c++/12/cstdio \
   /usr/include/stdio.h \
@@ -177,6 +181,8 @@ CMakeFiles/main.dir/main.cpp.o: /home/s23380346@unn.global/Sakharov/3823B1FI3/Se
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/12/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -225,6 +231,8 @@ CMakeFiles/main.dir/main.cpp.o: /home/s23380346@unn.global/Sakharov/3823B1FI3/Se
   /usr/include/c++/12/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/12/iostream \
   /usr/include/c++/12/locale \
   /usr/include/c++/12/bits/locale_facets_nonio.h \
@@ -262,6 +270,7 @@ CMakeFiles/main.dir/main.cpp.o: /home/s23380346@unn.global/Sakharov/3823B1FI3/Se
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/regex.h \
@@ -477,6 +486,7 @@ CMakeFiles/main.dir/tests.cpp.o: /home/s23380346@unn.global/Sakharov/3823B1FI3/S
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/12/bits/shared_ptr_base.h \
   /usr/include/c++/12/typeinfo \
   /usr/include/c++/12/bits/allocated_ptr.h \
@@ -558,8 +568,11 @@ CMakeFiles/main.dir/tests.cpp.o: /home/s23380346@unn.global/Sakharov/3823B1FI3/S
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/12/bits/std_abs.h \
   /usr/include/c++/12/cstdio \
   /usr/include/stdio.h \
@@ -568,6 +581,8 @@ CMakeFiles/main.dir/tests.cpp.o: /home/s23380346@unn.global/Sakharov/3823B1FI3/S
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/12/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -616,6 +631,8 @@ CMakeFiles/main.dir/tests.cpp.o: /home/s23380346@unn.global/Sakharov/3823B1FI3/S
   /usr/include/c++/12/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/12/iostream \
   /usr/include/c++/12/locale \
   /usr/include/c++/12/bits/locale_facets_nonio.h \
@@ -653,6 +670,7 @@ CMakeFiles/main.dir/tests.cpp.o: /home/s23380346@unn.global/Sakharov/3823B1FI3/S
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/regex.h \
@@ -833,8 +851,6 @@ _deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-generated-ac
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
-
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
@@ -929,8 +945,6 @@ _deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h:
 
 /usr/include/c++/12/bits/hashtable_policy.h:
 
-/usr/include/c++/12/bits/hashtable.h:
-
 /usr/include/c++/12/unordered_map:
 
 /usr/include/c++/12/bits/std_function.h:
@@ -964,6 +978,20 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal
 /usr/include/x86_64-linux-gnu/bits/confname.h:
 
 /usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+_deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h:
+
+_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
+
+/usr/include/x86_64-linux-gnu/bits/statx-generic.h:
+
+/usr/include/c++/12/bits/stl_heap.h:
+
+/usr/include/asm-generic/posix_types.h:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
@@ -1005,6 +1033,10 @@ _deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h:
 
 /usr/include/c++/12/backward/auto_ptr.h:
 
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /usr/include/c++/12/bits/algorithmfwd.h:
@@ -1020,6 +1052,8 @@ _deps/googletest-src/googletest/include/gtest/gtest_prod.h:
 _deps/googletest-src/googlemock/include/gmock/gmock-spec-builders.h:
 
 /usr/include/c++/12/ext/concurrence.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd.h:
 
 /usr/include/c++/12/bits/shared_ptr.h:
 
@@ -1045,6 +1079,8 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h:
 
 /usr/include/c++/12/cwctype:
 
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
+
 /usr/include/c++/12/bits/uses_allocator.h:
 
 /usr/include/c++/12/bit:
@@ -1067,6 +1103,10 @@ _deps/googletest-src/googletest/include/gtest/gtest-matchers.h:
 
 /usr/include/c++/12/bits/shared_ptr_base.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/struct_statx.h:
+
+/usr/include/c++/12/bits/stringfwd.h:
+
 /usr/include/c++/12/tuple:
 
 /usr/include/c++/12/bits/functional_hash.h:
@@ -1076,14 +1116,6 @@ _deps/googletest-src/googletest/include/gtest/gtest-matchers.h:
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 /usr/include/x86_64-linux-gnu/sys/stat.h:
-
-_deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/c++/12/memory:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
@@ -1122,10 +1154,6 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h:
 /usr/include/stdc-predef.h:
 
 /usr/include/c++/12/bits/move.h:
-
-/usr/include/c++/12/bits/stl_heap.h:
-
-/usr/include/asm-generic/posix_types.h:
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/gthr.h:
 
@@ -1183,6 +1211,10 @@ _deps/googletest-src/googlemock/include/gmock/gmock.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
+/usr/include/c++/12/bits/hashtable.h:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
 /usr/include/c++/12/cstdio:
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/gthr-default.h:
@@ -1208,8 +1240,6 @@ _deps/googletest-src/googlemock/include/gmock/gmock-cardinalities.h:
 /usr/include/c++/12/bits/uniform_int_dist.h:
 
 /usr/include/c++/12/bits/ptr_traits.h:
-
-/usr/include/x86_64-linux-gnu/bits/statx-generic.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
@@ -1252,6 +1282,8 @@ _deps/googletest-src/googlemock/include/gmock/gmock-cardinalities.h:
 /usr/include/c++/12/bits/atomic_lockfree_defines.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 _deps/googletest-src/googlemock/include/gmock/internal/gmock-internal-utils.h:
 
@@ -1302,6 +1334,10 @@ _deps/googletest-src/googletest/include/gtest/gtest-death-test.h:
 /usr/include/c++/12/pstl/glue_memory_defs.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
 
 /usr/include/string.h:
 
@@ -1361,10 +1397,6 @@ _deps/googletest-src/googlemock/include/gmock/gmock-actions.h:
 
 /usr/include/c++/12/bits/stl_tempbuf.h:
 
-/usr/include/c++/12/bits/allocated_ptr.h:
-
-/usr/include/c++/12/bits/nested_exception.h:
-
 /home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/BeginTask-0/main.cpp:
 
 /usr/include/c++/12/bits/shared_ptr_atomic.h:
@@ -1382,6 +1414,14 @@ _deps/googletest-src/googlemock/include/gmock/gmock-actions.h:
 /usr/include/c++/12/bits/stl_tree.h:
 
 /usr/include/c++/12/bits/char_traits.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/c++/12/memory:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
 
 /usr/include/c++/12/pstl/glue_algorithm_defs.h:
 
@@ -1431,10 +1471,6 @@ _deps/googletest-src/googlemock/include/gmock/gmock-actions.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
-/usr/include/c++/12/bits/stringfwd.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_statx.h:
-
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
 _deps/googletest-src/googletest/include/gtest/gtest-param-test.h:
@@ -1458,6 +1494,20 @@ _deps/googletest-src/googletest/include/gtest/gtest-param-test.h:
 /usr/include/x86_64-linux-gnu/c++/12/bits/error_constants.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/include/c++/12/bits/allocated_ptr.h:
+
+/usr/include/c++/12/bits/nested_exception.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+/usr/include/c++/12/tr1/riemann_zeta.tcc:
+
+/usr/include/c++/12/bits/basic_ios.tcc:
+
+/usr/include/c++/12/any:
+
+/usr/include/c++/12/ctime:
 
 /usr/include/errno.h:
 
@@ -1498,14 +1548,6 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h:
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
 /usr/include/c++/12/vector:
-
-/usr/include/c++/12/tr1/riemann_zeta.tcc:
-
-/usr/include/c++/12/bits/basic_ios.tcc:
-
-/usr/include/c++/12/any:
-
-/usr/include/c++/12/ctime:
 
 /usr/include/c++/12/bits/ios_base.h:
 
@@ -1571,12 +1613,6 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-port.h:
 
 /usr/include/linux/posix_types.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
-
 /usr/include/c++/12/bits/cxxabi_init_exception.h:
 
 /usr/include/linux/stddef.h:
-
-_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
