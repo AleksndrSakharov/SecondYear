@@ -50,8 +50,8 @@ public:
         return _minT;
     }
 
-    ~ArrayHandler() {
-        delete[] _array;
-    }
+    // ~ArrayHandler() {
+    //     delete[] _array;
+    // }
 };
 
