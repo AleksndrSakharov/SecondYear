@@ -9,7 +9,7 @@ private:
     T _array[1000000]; 
     size_t _count; 
     T _maxT;
-    T _minT;
+    T _minT; 
   
 public:  
     ArrayHandler() :  _count(0), _minT(std::numeric_limits<T>::max()), _maxT(std::numeric_limits<T>::min()) {

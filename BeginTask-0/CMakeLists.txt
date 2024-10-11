@@ -26,26 +26,25 @@ target_compile_options(main PRIVATE
     -DNDEBUG             
     -ffast-math          
     -mavx2               
-    -funroll-loops       
     -fprofile-generate   
     -fprofile-use  
 
-    # -ftree-vectorize
+
+    -ftree-vectorize
+    -fprefetch-loop-arrays  
+    # -flto              
+    -ftree-loop-distribution
+    -fpeel-loops
+    -fvect-cost-model=dynamic
+
     # -Ofast             
     # -march=native      
-    # -funroll-loops     
-    # -fprefetch-loop-arrays  
-    # -flto              
+    # -funroll-loops                                 
+    # -fno-stack-protector 
     # -ffast-math
     # -fno-exceptions
     # -fno-rtti
-    # -fomit-frame-pointer
-    # -floop-block
-    # -floop-parallelize-all
-    # -ftree-loop-distribution
-    # -fpeel-loops
-    # -fvect-cost-model=dynamic                             
-    # -fno-stack-protector          
+    # -fomit-frame-pointer         
     # -DNDEBUG                   
     # -mavx2                  
     # -fprofile-generate   
