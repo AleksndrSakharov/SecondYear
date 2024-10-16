@@ -19,14 +19,14 @@ public:
     //     _array = new T[_size];
     // } 
 
-    void AppendElem(T elem) {
+    inline void AppendElem(T elem) {
         _array[_count++] = elem;
         _minT = (elem < _minT) ? elem : _minT;
         _maxT = (elem > _maxT) ? elem : _maxT;
     
     }
 
-    bool IsContains(const T* elem) const {
+    inline bool IsContains(const T* elem) const {
         const T* end = _array + _count;
         const T* ptr = _array;
 
@@ -41,11 +41,11 @@ public:
        
      
 
-    T GetMax() const {
+    inline T GetMax() const {
         return _maxT;
     }
 
-    T GetMin() const {
+    inline T GetMin() const {
         return _minT;
     }
 
