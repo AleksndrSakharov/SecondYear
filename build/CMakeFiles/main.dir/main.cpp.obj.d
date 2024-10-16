@@ -281,5 +281,4 @@ CMakeFiles/main.dir/main.cpp.obj: \
  D:/PROGA/Proga/C++/SecondYear/build/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-generated-actions.h \
  D:/PROGA/Proga/C++/SecondYear/build/_deps/googletest-src/googlemock/include/gmock/gmock-more-matchers.h \
  D:/PROGA/Proga/C++/SecondYear/build/_deps/googletest-src/googlemock/include/gmock/gmock-nice-strict.h \
- D:/PROGA/Proga/C++/SecondYear/BeginTask-0/ArrayHandler.h \
- C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cstring
+ D:/PROGA/Proga/C++/SecondYear/BeginTask-0/ArrayHandler.h
