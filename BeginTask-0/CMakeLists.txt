@@ -31,8 +31,7 @@ target_compile_options(main PRIVATE
 
 
     -ftree-vectorize
-    -fprefetch-loop-arrays  
-    # -flto              
+    -fprefetch-loop-arrays               
     -ftree-loop-distribution
     -fpeel-loops
     -fvect-cost-model=dynamic
@@ -68,4 +67,4 @@ target_compile_options(main PRIVATE
 )
 
 
-target_link_libraries(main gtest gmock pthread)
+target_link_libraries(main gtest gmock gcov pthread)
