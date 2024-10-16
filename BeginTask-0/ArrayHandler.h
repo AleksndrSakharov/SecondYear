@@ -8,7 +8,7 @@ class ArrayHandler {
 private:
     T _array[1000000]; 
     size_t _count; 
-    T _maxT;
+    T _maxT; 
     T _minT; 
   
 public:  
