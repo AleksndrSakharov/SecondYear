@@ -119,6 +119,7 @@ CMakeFiles/main.dir/main.cpp.obj: D:/PROGA/Proga/C++/SecondYear/BeginTask-0/main
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cstdint \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cstdio \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cstdlib \
+  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cstring \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/ctime \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cwchar \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cwctype \
@@ -405,6 +406,7 @@ CMakeFiles/main.dir/tests.cpp.obj: D:/PROGA/Proga/C++/SecondYear/BeginTask-0/tes
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cstdint \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cstdio \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cstdlib \
+  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cstring \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/ctime \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cwchar \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cwctype \
@@ -882,6 +884,8 @@ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cstddef:
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cstdint:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cstdlib:
+
+C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cstring:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/ctime:
 
