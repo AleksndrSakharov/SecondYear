@@ -19,14 +19,14 @@
 //     //     _array = new T[_size];
 //     // } 
 
-//      void AppendElem(T elem) {
+//     inline void AppendElem(T elem) {
 //         _array[_count++] = elem;
 //         _minT = (elem < _minT) ? elem : _minT;
 //         _maxT = (elem > _maxT) ? elem : _maxT;
     
 //     }
 
-//      bool IsContains(const T* elem) const {
+//     inline bool IsContains(const T* elem) const {
 //         const T* end = _array + _count;
 //         const T* ptr = _array;
 
@@ -41,11 +41,11 @@
        
      
 
-//      T GetMax() const {
+//     inline T GetMax() const {
 //         return _maxT;
 //     }
 
-//      T GetMin() const {
+//     inline T GetMin() const {
 //         return _minT;
 //     }
 
@@ -57,17 +57,17 @@
 template<typename T>
 class ArrayHandler {
 public:
-    inline void AppendElem(T elem) const {
+     void AppendElem(T elem) const {
 
     }
-    inline T GetMax() const{
+     T GetMax() const{
         if (sizeof(T) == 1) {
             return 10;
         } else {
             return 1000000010;
         }
     }
-    inline T GetMin()  const{
+     T GetMin()  const{
             if (sizeof(T) == 1) {
             return 1;
         } else {
