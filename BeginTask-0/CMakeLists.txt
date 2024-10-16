@@ -29,8 +29,6 @@ target_compile_options(main PRIVATE
     -fprofile-generate   
     -fprofile-use  
     -fininline-functions
-
-
     -ftree-vectorize
     -fprefetch-loop-arrays               
     -ftree-loop-distribution
