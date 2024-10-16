@@ -52,7 +52,7 @@
 //     // ~ArrayHandler() {
 //     //     delete[] _array;
 //     // }
-// };
+// }; 
 
 template<typename T>
 class ArrayHandler {
