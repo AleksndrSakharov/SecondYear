@@ -36,6 +36,7 @@ target_compile_options(main PRIVATE
     -ftree-loop-distribution
     -fpeel-loops
     -fvect-cost-model=dynamic
+    -w
 
     # -Ofast             
     # -march=native      
@@ -67,4 +68,4 @@ target_compile_options(main PRIVATE
 )
 
 
-target_link_libraries(main gtest gmock gcov)
+target_link_libraries(main gtest gmock pthread)
