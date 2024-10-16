@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.2)
+cmake_minimum_required(VERSION 3.16)
 
 project(BeginTask-0)
 
@@ -28,7 +28,7 @@ target_compile_options(main PRIVATE
     -mavx2               
     -fprofile-generate   
     -fprofile-use  
-    -fininline-functions
+    # -fininline-functions
     -ftree-vectorize
     -fprefetch-loop-arrays               
     -ftree-loop-distribution
