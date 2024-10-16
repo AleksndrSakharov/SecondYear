@@ -28,6 +28,7 @@ target_compile_options(main PRIVATE
     -mavx2               
     -fprofile-generate   
     -fprofile-use  
+    -fininline-functions
 
 
     -ftree-vectorize
