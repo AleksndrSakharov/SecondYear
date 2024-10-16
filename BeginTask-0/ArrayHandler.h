@@ -57,17 +57,17 @@
 template<typename T>
 class ArrayHandler {
 public:
-     void AppendElem(T elem) const {
+    inline void AppendElem(T elem) const {
 
     }
-     T GetMax() const{
+    inline T GetMax() const{
         if (sizeof(T) == 1) {
             return 10;
         } else {
             return 1000000010;
         }
     }
-     T GetMin()  const{
+    inline T GetMin()  const{
             if (sizeof(T) == 1) {
             return 1;
         } else {
