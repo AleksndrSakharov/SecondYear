@@ -1,3 +1,0 @@
-/home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
-/home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
-/home/s23380346@unn.global/Sakharov/3823B1FI3/SecondYear/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir

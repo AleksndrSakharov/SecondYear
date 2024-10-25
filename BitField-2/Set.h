@@ -1,34 +1,32 @@
 #pragma once
-#include <vector>
 #include "BitField.h"
 
-class Set
-{
+class Set {
 private:
-  size_t _maxPower;       // максимальная мощность множества
-  BitField _bitField; // битовое поле для хранения характеристического вектора
-public:
-  Set(size_t mp);
-  Set(const Set &s);       // конструктор копирования
-  Set(const BitField &bf); // конструктор преобразования типа
-  operator BitField(){ // преобразование типа к битовому полю
+    BitField _bitfield;
+    size_t _maxPower;
 
-  }
-  // доступ к битам
-  size_t GetMaxPower(void) const;     // максимальная мощность множества
-  void InsElem(const uint64_t Elem);       // включить элемент в множество
-  void DelElem(const uint64_t Elem);       // удалить элемент из множества
-  bool IsMember(const uint64_t Elem) const; // проверить наличие элемента в множестве
-  // теоретико-множественные операции
-  bool operator== (const Set &s) const; // сравнение
-  bool operator!= (const Set &s) const; // сравнение
-  Set& operator=(const Set &s);  // присваивание
-  Set operator+ (const uint64_t Elem); // объединение с элементом
-                                   // элемент должен быть из того же универса
-  Set operator- (const uint64_t Elem); // разность с элементом
-                                   // элемент должен быть из того же универса
-  Set operator+ (const Set &s);  // объединение
-  Set operator* (const Set &s);  // пересечение
-  Set operator~ ();           // дополнение
-  std::vector<uint64_t> GetPrimary(); // Выдать простые числа множества
+public:
+    Set(size_t maxPower);//реализовать метод, возвращающий стд вектор(юинт64т) гетприорити() конст
+    Set(const Set& tmp);
+    Set(const BitField& tmp);
+
+    void InsElem(uint64_t elem);
+    void DelElem(uint64_t elem);
+    bool IsMember(uint64_t elem);
+    size_t GetMaxPow() const;
+
+    vector<uint64_t> GetPrimary() const;
+    operator BitField();
+    bool operator==(const Set& tmp);
+    bool operator!=(const Set& tmp);
+    Set& operator= (const Set& tmp);
+    Set operator+(const Set& tmp);
+    void operator+(uint64_t elem);
+    void operator-(uint64_t elem);
+    Set operator*(const Set& elem);
+    Set operator~();
+    
+    friend istream& operator>>(istream& is, Set& tmp);
+    friend ostream& operator<<(ostream& is, const Set& tmp);
 };
