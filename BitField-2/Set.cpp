@@ -47,8 +47,8 @@ size_t Set::GetMaxPow() const {
 bool Set::IsMember(uint64_t elem) {
     if (elem < _maxPower && elem >= 0){
         if (_bitfield.GetBit(elem) == 1) return true;
-        return false;
         }
+        return false;
 }
 
 bool Set::operator==(const Set& tmp){
@@ -66,6 +66,7 @@ bool Set::operator!=(const Set& tmp){
 Set& Set::operator= (const Set& tmp) {
     _maxPower = tmp._maxPower;
     _bitfield = tmp._bitfield;
+    return *this;
 }
 
 Set Set::operator+(const Set& tmp) {
@@ -83,13 +84,16 @@ void Set::operator-(uint64_t elem) {
     DelElem(elem);
 }
 
-Set Set::operator*(const Set& elem) {
-
+Set Set::operator*(const Set& tmp) {
+    Set result(max(tmp._maxPower, _maxPower));
+    result._bitfield = _bitfield & tmp._bitfield;
+    return result;
 }
 
 Set Set::operator~() {
     Set result(_maxPower);
     result._bitfield = ~_bitfield;
+    return result;
 }
 
 

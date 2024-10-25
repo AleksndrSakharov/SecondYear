@@ -72,7 +72,7 @@ BitField& BitField::operator=(const BitField& tmp) {
     }
     for (size_t i = 0; i < _memSize; ++i)
         _mem[i] = tmp._mem[i];
-
+    return *this;
 }
 
 bool BitField::operator==(const BitField& tmp) const {
