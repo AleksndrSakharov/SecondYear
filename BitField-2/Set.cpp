@@ -1,5 +1,5 @@
 #include "Set.h"
-
+//СКОПИРОВАЛ = ПID@Р
 Set::operator BitField() {
     return BitField(this->_bitfield);
 }
@@ -20,26 +20,28 @@ void Set::InsElem(uint64_t elem) {
 }
 
 vector<uint64_t> Set::GetPrimary() const{
-    vector<uint64_t> dendi(_maxPower, 1);
-    vector<uint64_t> result;
-    result.push_back(1);
-    Set copy(*this);
-    for (size_t i = 2; i < _maxPower; i++){
-        // cout << i << " ";
-        if (copy.IsMember(i) == false) dendi[i] = 0;
-        if (dendi[i] != 0) result.push_back(i);
-            for (size_t j = i + 1; j < _maxPower; j++){
-                if (dendi[j] == 0) continue;
-                if (j % i == 0 && dendi[j] != 0) dendi[j] = 0;
-            }
+    vector <uint64_t> res;
+    unordered_set<int> used;
+    size_t tmp = _maxPower;
+    res.push_back(1);
+    for (int i = 2; i < tmp + 1; i++){
+    
+        if (used.find(i) != used.end()) continue;
+    
+        else{
+            res.push_back(i);
+            for (int j = i + 1; j < tmp + 1; j++)
+                if (j % i == 0) used.insert(j);
+            
+       }
     }
-    return result;
+    return res;
 }
 
 void Set::DelElem(uint64_t elem) {
     _bitfield.ClrBit(elem);
 }
-
+//СКОПИРОВАЛ = ПID@Р
 size_t Set::GetMaxPow() const {
     return _maxPower;
 }
@@ -51,13 +53,13 @@ bool Set::IsMember(uint64_t elem) {
         return false;
 }
 
-bool Set::operator==(const Set& tmp){
+bool Set::operator==(const Set& tmp) const{
     if (_bitfield == tmp._bitfield)
         return true;
     return false;
 }
 
-bool Set::operator!=(const Set& tmp){
+bool Set::operator!=(const Set& tmp) const{
     if (_bitfield == tmp._bitfield)
         return false;
     return true;
@@ -68,7 +70,7 @@ Set& Set::operator= (const Set& tmp) {
     _bitfield = tmp._bitfield;
     return *this;
 }
-
+//СКОПИРОВАЛ = ПID@Р
 Set Set::operator+(const Set& tmp) {
     Set result(max(tmp._maxPower, _maxPower));
     result._bitfield = _bitfield | tmp._bitfield;
@@ -89,7 +91,7 @@ Set Set::operator*(const Set& tmp) {
     result._bitfield = _bitfield & tmp._bitfield;
     return result;
 }
-
+//СКОПИРОВАЛ = ПID@Р
 Set Set::operator~() {
     Set result(_maxPower);
     result._bitfield = ~_bitfield;

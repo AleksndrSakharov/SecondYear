@@ -1,5 +1,5 @@
 #include "BitField.h"
-
+//СКОПИРОВАЛ = ПID@Р
 
 BitField::BitField(size_t sizeBit) {
     _sizeBit = sizeBit;
@@ -15,7 +15,7 @@ BitField::~BitField() {
     delete[] _mem;
     _mem = nullptr;
 }
-
+//СКОПИРОВАЛ = ПID@Р
 BitField::BitField(const BitField& tmp) {
     _sizeBit = tmp._sizeBit;
     _memSize = tmp._memSize;
@@ -38,16 +38,14 @@ uint16_t BitField::GetMask(size_t n) {
 
 void BitField::SetBit(size_t n) {
     if (n <= _sizeBit){
-        uint16_t getmem = GetMemIndex(n);
-        uint16_t getmask = GetMask(n);
-        size_t s = _memSize;
         _mem[GetMemIndex(n)] |= GetMask(n);
     }
+    else throw "Error";
         
 }
-
+//СКОПИРОВАЛ = ПID@Р
 void BitField::ClrBit(size_t n) {
-    _mem[GetMemIndex(n)] ^= GetMask(n);
+    _mem[GetMemIndex(n)] &= ~GetMask(n);
 }
 
 uint8_t BitField::GetBit(size_t n) {
@@ -62,15 +60,14 @@ size_t BitField::GetLength() const {
 }
 
 BitField& BitField::operator=(const BitField& tmp) {
-    if (_memSize != tmp._memSize) {
-        // *this = BitField(1);
-        _memSize = tmp._memSize;
+    if (_sizeBit != tmp._sizeBit) {
+        _sizeBit = tmp._sizeBit;
         _memSize = tmp._memSize;
         delete[] _mem;
         _mem = nullptr;
-        _mem = new uint16_t[_memSize];
+        _mem = new uint16_t[tmp._memSize];
     }
-    for (size_t i = 0; i < _memSize; ++i)
+    for (size_t i = 0; i < tmp._memSize; ++i)
         _mem[i] = tmp._mem[i];
     return *this;
 }
@@ -83,13 +80,15 @@ bool BitField::operator==(const BitField& tmp) const {
 }
 
 BitField BitField::operator~() {
-    BitField a(*this);
-    for (int i = 0; i < (a._memSize - 1); i++) a._mem[i] = ~(a._mem[i]);
-	for (int i = ((a._memSize - 1) * (sizeof(uint16_t) * 8)); i < (a._sizeBit); i++) {
-		if (a.GetBit(i) == 1) a.ClrBit(i);
-		else a.SetBit(i);
-	}
-	return a;
+    BitField result(_sizeBit);
+    for (int i = 0; i < _sizeBit; i++) {
+        if (this->GetBit(i) == 0)
+            result.SetBit(i);
+        else
+            result.ClrBit(i);
+    }
+
+    return result;
 }
 
 BitField BitField::operator&(const BitField& tmp)  {
@@ -152,19 +151,10 @@ istream& operator>>(istream& in, BitField& x) {
 }
 
 ostream& operator<<(ostream& os, const BitField& x) {
-    int flag = 0;
     BitField tmp(x);
-    os << "{";
-    for (int j = 0; j < tmp._memSize; j++)
-        for (int i = 0; i < 16; i++) {
-            if ((tmp._mem[j] & 1) && (j == tmp._memSize - 1) && (i == 15)) {
-                os << flag;
-            }
-            else if (tmp._mem[j] & 1) {
-                os << flag << " ,";
-            }
-            flag++;
-            tmp._mem[j] >> 1;
-        }
-    return os << "}";
+    for (int i = 0; i < x._sizeBit; i++)
+		if (tmp.GetBit(i) == 0) os << 0 << " ";
+		else os << 1 << " ";
+	os << endl;
+	return os;
 }

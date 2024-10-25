@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include <unordered_set>//СКОПИРОВАЛ = ПID@Р
 #include <vector>
 #include <stdint.h>
 #include <unordered_map>
@@ -20,7 +21,7 @@ private:
     
     size_t GetMemIndex(size_t n)const;
     uint16_t GetMask(size_t n);
-
+//СКОПИРОВАЛ = ПID@Р
 public:
     BitField(size_t sizeBit);
     ~BitField();
@@ -42,5 +43,5 @@ public:
 
     friend istream& operator>>(istream& in, BitField& x);
     friend ostream& operator<<(ostream& os, const BitField& x);
-
+//СКОПИРОВАЛ = ПID@Р
 };
